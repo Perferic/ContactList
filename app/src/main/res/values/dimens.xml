@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="listPadding">20dp</dimen>
+    <dimen name="textviewMargin">10dp</dimen>
+    <dimen name="buttonCenteringMargin">64dp</dimen>
+</resources>
