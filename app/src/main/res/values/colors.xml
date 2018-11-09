@@ -2,5 +2,16 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent">#FFFFFFFF</color>
+    <color name="colorBackground">#F4A460</color>
+    <color name="DarkSeaGreen">#8FBC8F</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Personnalisation ListView -->
+    <color name="text_color_default">#000000</color>
+    <color name="text_color_inverse">#0000FF</color>
+    <color name="list_default">#8FBC8F</color>
+    <color name="list_pressed">#FF80CBC4</color>
+    <color name="list_selected">#8FBC8F</color>
+    <color name="accent_material_dark_1">#80cbc4</color>
 </resources>
