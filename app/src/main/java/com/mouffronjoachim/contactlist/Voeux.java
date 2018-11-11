@@ -1,4 +1,4 @@
-package vu.yawanda.lawawa.yawanda_test;
+package com.mouffronjoachim.contactlist;
 
 import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
