@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">ContactList</string>
     <string name="Bouton_1">Valider</string>
-    <string name="selectall">Selectionner Tous</string>
+    <string name="selectall">Selectionner Tout</string>
     <string name="bouton_validation">Validation</string>
     <string name="bouton_annulation">Annulation</string>
     <string name="changename">Changer un nom</string>
     <string name="bouton_terminer">Terminer</string>
+    <string name="valider">Valider</string>
+    <string name="textActivity">Validation des sms</string>
 </resources>
