@@ -7,5 +7,6 @@
     <string name="changename">Changer un nom</string>
     <string name="bouton_terminer">Terminer</string>
     <string name="valider">Valider</string>
-    <string name="textActivity">Validation des sms</string>
+    <string name="textActivity">Vous avez selectionné:</string>
+    <string name="messageContact">Message à envoyer aux contacts:</string>
 </resources>
