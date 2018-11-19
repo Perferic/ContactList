@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
-    android:layout_width="match_parent"
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/message"
+    android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:padding="20dip"
-    android:background="@drawable/custom_scroll_item">
-
-    <TextView
-        android:id="@+id/fragment_main_item_title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:textColor="@color/colorAccent"
-        />
-
-</LinearLayout>
+    android:padding="@dimen/textviewMargin"
+    android:textColor="@color/colorAccent"
+    android:clickable="true"
+    android:background="@drawable/list_color_selector" />

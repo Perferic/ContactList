@@ -9,4 +9,12 @@
     <string name="valider">Valider</string>
     <string name="textActivity">Vous avez selectionné:</string>
     <string name="messageContact">Message à envoyer aux contacts:</string>
+    <string name="dialog_message">Voulez-vous envoyer ce message?</string>
+    <string name="dialog_title">Validation d\'envoi</string>
+    <string name="ok">Envoyer</string>
+    <string name="cancel">Annuler</string>
+    <string name="select_new_name">Choisir un nouveau nom</string>
+    <string name="remplacement">Nom de remplacement pour le contact...</string>
+    <string name="prenomText">Modification du prénom</string>
+    <string name="modifier">Modifier</string>
 </resources>

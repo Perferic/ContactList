@@ -3,7 +3,7 @@ package com.mouffronjoachim.contactlist;
 import java.io.Serializable;
 
 public class Contact implements Serializable {
-    private Boolean active;
+    private Boolean active, changeNom;
     private String name, tel;
 
     public Contact(String name, String tel){
@@ -15,6 +15,7 @@ public class Contact implements Serializable {
     public String getName() {
         return this.name;
     }
+    public void setName(String name){ this.name = name; }
     public String getTel() {
         return this.tel;
     }
@@ -28,6 +29,10 @@ public class Contact implements Serializable {
     }
     public void switchChecked(Boolean bool) {
         this.active = bool;
+    }
+
+    public boolean isChangeNom(){
+        return this.changeNom;
     }
 
 

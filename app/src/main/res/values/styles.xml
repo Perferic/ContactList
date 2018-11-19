@@ -16,4 +16,7 @@
         <item name="android:tint">@color/colorAccent</item>
     </style>
 
+    <style name="dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/black</item>
+    </style>
 </resources>

@@ -13,8 +13,14 @@
         android:id="@+id/lvContacts"
         android:layout_width="match_parent"
         android:layout_height="400dp"
+        android:layout_margin="@dimen/listPadding"
         android:choiceMode="multipleChoice"
+        android:listSelector="@drawable/list_item_text_selector"
         android:padding="@dimen/listPadding"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:scrollingCache="false"
+        android:smoothScrollbar="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.415"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -26,11 +32,13 @@
         android:id="@+id/valider"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/holo_green_light"
         android:text="@string/valider"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lvContacts" />
 
     <CheckBox
         android:id="@+id/selectall"
